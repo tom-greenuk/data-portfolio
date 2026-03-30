@@ -57,6 +57,4 @@ LinkedIn: [linkedin.com/in/tom-greenuk](https://linkedin.com/in/tom-greenuk)
 
 ---
 
-## 📫 Contact
-- LinkedIn: [linkedin.com/in/tom-greenuk](https://linkedin.com/in/tom-greenuk)
 
