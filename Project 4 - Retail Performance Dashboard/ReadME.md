@@ -75,6 +75,6 @@ Built using real-world retail operations data structures, informed by 10+ years 
 ## Screenshots
 
 
-![Area Overview](Screenshots/area-overview.png)
-![Store Overview](Screenshots/store-overview.png)
-![Fulfilment](Screenshots/fulfilment.png)
+![Area Overview](Screenshots/Dashboard_1.png)
+![Store Overview](Screenshots/Dashboard_2.png)
+![Fulfilment](Screenshots/Dashboard_3.png)
