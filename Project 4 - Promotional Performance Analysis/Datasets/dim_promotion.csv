@@ -1,0 +1,49 @@
+promotion_id,promotion_name,promotion_type,discount_pct,start_date,end_date
+1,BOGOF Week 1,BOGOF,50,2024-01-12,2024-01-26
+2,Seasonal Week 2,Seasonal,30,2024-01-02,2024-01-23
+3,Meal Deal Week 3,Meal Deal,20,2024-01-02,2024-01-17
+4,Price Reduction Week 4,Price Reduction,15,2024-01-14,2024-01-31
+5,Seasonal Week 5,Seasonal,30,2024-02-14,2024-02-26
+6,Seasonal Week 6,Seasonal,30,2024-02-04,2024-02-22
+7,BOGOF Week 7,BOGOF,50,2024-02-01,2024-02-18
+8,Multibuy Week 8,Multibuy,25,2024-02-13,2024-02-24
+9,BOGOF Week 9,BOGOF,50,2024-03-14,2024-03-24
+10,BOGOF Week 10,BOGOF,50,2024-03-07,2024-03-18
+11,Meal Deal Week 11,Meal Deal,20,2024-03-11,2024-03-31
+12,Price Reduction Week 12,Price Reduction,15,2024-03-03,2024-03-15
+13,Price Reduction Week 13,Price Reduction,15,2024-04-04,2024-04-21
+14,Price Reduction Week 14,Price Reduction,15,2024-04-12,2024-05-03
+15,BOGOF Week 15,BOGOF,50,2024-04-10,2024-04-27
+16,Multibuy Week 16,Multibuy,25,2024-04-09,2024-04-27
+17,Multibuy Week 17,Multibuy,25,2024-05-03,2024-05-17
+18,Meal Deal Week 18,Meal Deal,20,2024-05-05,2024-05-26
+19,Seasonal Week 19,Seasonal,30,2024-05-04,2024-05-21
+20,Price Reduction Week 20,Price Reduction,15,2024-05-14,2024-06-02
+21,BOGOF Week 21,BOGOF,50,2024-06-04,2024-06-24
+22,BOGOF Week 22,BOGOF,50,2024-06-13,2024-06-25
+23,Meal Deal Week 23,Meal Deal,20,2024-06-05,2024-06-13
+24,Multibuy Week 24,Multibuy,25,2024-06-10,2024-07-01
+25,Price Reduction Week 25,Price Reduction,15,2024-07-04,2024-07-21
+26,Meal Deal Week 26,Meal Deal,20,2024-07-07,2024-07-28
+27,Meal Deal Week 27,Meal Deal,20,2024-07-03,2024-07-14
+28,Multibuy Week 28,Multibuy,25,2024-07-04,2024-07-22
+29,Seasonal Week 29,Seasonal,30,2024-08-09,2024-08-20
+30,Seasonal Week 30,Seasonal,30,2024-08-07,2024-08-28
+31,Seasonal Week 31,Seasonal,30,2024-08-07,2024-08-19
+32,Multibuy Week 32,Multibuy,25,2024-08-03,2024-08-18
+33,Meal Deal Week 33,Meal Deal,20,2024-09-02,2024-09-21
+34,BOGOF Week 34,BOGOF,50,2024-09-14,2024-09-22
+35,Multibuy Week 35,Multibuy,25,2024-09-11,2024-09-20
+36,Meal Deal Week 36,Meal Deal,20,2024-09-10,2024-09-18
+37,Meal Deal Week 37,Meal Deal,20,2024-10-07,2024-10-23
+38,Meal Deal Week 38,Meal Deal,20,2024-10-09,2024-10-20
+39,Seasonal Week 39,Seasonal,30,2024-10-14,2024-10-21
+40,BOGOF Week 40,BOGOF,50,2024-10-11,2024-11-01
+41,Seasonal Week 41,Seasonal,30,2024-11-13,2024-11-24
+42,Price Reduction Week 42,Price Reduction,15,2024-11-02,2024-11-13
+43,Meal Deal Week 43,Meal Deal,20,2024-11-03,2024-11-17
+44,BOGOF Week 44,BOGOF,50,2024-11-12,2024-12-03
+45,Price Reduction Week 45,Price Reduction,15,2024-12-09,2024-12-28
+46,Multibuy Week 46,Multibuy,25,2024-12-09,2024-12-30
+47,BOGOF Week 47,BOGOF,50,2024-12-14,2024-12-31
+48,Price Reduction Week 48,Price Reduction,15,2024-12-14,2024-12-31

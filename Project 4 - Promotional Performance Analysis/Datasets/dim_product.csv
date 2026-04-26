@@ -1,0 +1,31 @@
+product_id,product_name,category,base_price
+1,Cola 2L,Beverages,2.03
+2,Orange Juice 1L,Beverages,1.23
+3,Water 500ml,Beverages,1.56
+4,Energy Drink 250ml,Beverages,1.49
+5,Lemonade 1L,Beverages,2.16
+6,Crisps 150g,Snacks,1.61
+7,Chocolate Bar 45g,Snacks,1.87
+8,Popcorn 100g,Snacks,0.9
+9,Nuts 200g,Snacks,1.31
+10,Biscuits 300g,Snacks,0.84
+11,Milk 2L,Dairy,1.55
+12,Cheddar 400g,Dairy,2.26
+13,Yoghurt 500g,Dairy,1.07
+14,Butter 250g,Dairy,1.5
+15,Cream Cheese 200g,Dairy,2.62
+16,Chips 1kg,Frozen,2.86
+17,Pizza Margherita,Frozen,2.05
+18,Ice Cream 500ml,Frozen,2.97
+19,Peas 900g,Frozen,3.52
+20,Fish Fingers 400g,Frozen,1.52
+21,Bananas 1kg,Fresh Produce,2.17
+22,Apples 6pk,Fresh Produce,1.99
+23,Strawberries 400g,Fresh Produce,1.38
+24,Broccoli,Fresh Produce,1.06
+25,Carrots 1kg,Fresh Produce,2.43
+26,White Bread,Bakery,1.5
+27,Brown Bread,Bakery,1.14
+28,Croissants 4pk,Bakery,1.15
+29,Muffins 4pk,Bakery,2.27
+30,Bagels 5pk,Bakery,1.91
