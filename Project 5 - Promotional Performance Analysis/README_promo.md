@@ -19,7 +19,7 @@ An end-to-end data analytics project analysing promotional activity across a UK 
 Project 4 - Promotional Performance Analysis/
 │
 ├── Datasets/
-│   ├── fact_sales.csv        # 109,553 transactional sales records (2024)
+│   ├── fact_sales.csv        # 109,553 transactional sales records (2026)
 │   ├── dim_product.csv       # 30 products across 6 categories
 │   └── dim_promotion.csv     # 48 promotions across 5 promotion types
 │
@@ -31,8 +31,6 @@ Project 4 - Promotional Performance Analysis/
 ---
 
 ## Dataset
-
-Synthetic dataset designed to replicate real-world retail promotional data structures.
 
 | Table | Rows | Key Fields |
 |---|---|---|
@@ -48,8 +46,6 @@ Synthetic dataset designed to replicate real-world retail promotional data struc
 
 ## SQL Analysis (BigQuery)
 
-Five queries written to answer the business questions:
-
 **1. Data validation**
 ```sql
 SELECT
@@ -59,17 +55,16 @@ SELECT
 FROM `promo_analysis.fact_sales`
 ```
 
-**2. Revenue & ROI by promotion type**
+**2. Revenue by promotion type**
 ```sql
 SELECT
   p.promotion_type,
-  ROUND(SUM(f.revenue), 2) AS total_revenue,
-  ROUND(SUM(f.revenue / (1 - f.discount_applied_pct/100) - f.revenue), 2) AS total_discount,
-  ROUND(SUM(f.revenue) / NULLIF(SUM(f.revenue / (1 - f.discount_applied_pct/100) - f.revenue), 0), 2) AS roi
+  ROUND(SUM(f.revenue), 2) AS total_revenue
 FROM `promo_analysis.fact_sales` AS f
-INNER JOIN `promo_analysis.promotion` AS p ON f.promotion_id = p.promotion_id
+INNER JOIN `promo_analysis.promotion` AS p
+ON f.promotion_id = p.promotion_id
 GROUP BY p.promotion_type
-ORDER BY roi DESC
+ORDER BY total_revenue DESC
 ```
 
 **3. Revenue by product category**
@@ -95,6 +90,19 @@ FROM `promo_analysis.fact_sales`
 WHERE is_promoted = 1
 GROUP BY EXTRACT(MONTH FROM sale_date), FORMAT_DATE('%B', sale_date)
 ORDER BY month_no
+```
+
+**5. ROI by promotion type**
+```sql
+SELECT
+  p.promotion_type,
+  ROUND(SUM(f.revenue), 2) AS total_revenue,
+  ROUND(SUM(f.revenue / (1 - f.discount_applied_pct/100) - f.revenue), 2) AS total_discount,
+  ROUND(SUM(f.revenue) / NULLIF(SUM(f.revenue / (1 - f.discount_applied_pct/100) - f.revenue), 0), 2) AS roi
+FROM `promo_analysis.fact_sales` AS f
+INNER JOIN `promo_analysis.promotion` AS p ON f.promotion_id = p.promotion_id
+GROUP BY p.promotion_type
+ORDER BY roi DESC
 ```
 
 ---
@@ -136,7 +144,6 @@ Single-page dashboard built on a star schema (fact_sales → dim_product, dim_pr
 
 | Tool | Usage |
 |---|---|
-| BigQuery (SQL) | Data validation, aggregation, JOINs, window functions, ROI calculation |
-| Power BI | Dashboard design, star schema data model, DAX measures |
+| BigQuery (SQL) | Data validation, aggregation, JOINs, ROI calculation |
+| Power BI | Dashboard design, star schema data model |
 | PowerPoint | Stakeholder report with findings and recommendations |
-| Python | Synthetic dataset generation |
