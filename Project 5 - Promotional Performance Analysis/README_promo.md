@@ -140,6 +140,20 @@ Single-page dashboard built on a star schema (fact_sales → dim_product, dim_pr
 
 ---
 
+## Screenshots
+
+**Power BI Dashboard**
+![Power BI Dashboard](screenshots/Power_BI.png)
+
+**SQL Query Results**
+![SQL Results 1](screenshots/SQL_1.png)
+![SQL Results 2](screenshots/SQL_2.png)
+
+**PowerPoint Report**
+![PowerPoint Report](screenshots/PowerPoint_Report.png)
+
+---
+
 ## Tools & Skills
 
 | Tool | Usage |
